@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+   
+
+}
+.abo{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+   
+    padding: 20px 30p;
+    grid-column-gap: 30px;
+    grid-row-gap:20px;
+    color: white;
+
+
+
+}
+.it img{
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    border-radius: 300px;
+}
+.it p{
+    font-size: 40px;
+    margin-left: 100px;
+
+}
+.about{
+    color: white;
+    font-size: 20px;
+    word-spacing: 6px;
+    margin-top: 80px;
+    width: 75%;
+    padding: 0px 165px;
+    font-style: italic;
+    word-spacing: 10px;
+}
+h1{
+    align-items: center;
+    margin-bottom: 10px;
+    color: white;
+    margin-left: 550px;
+    margin-bottom: 50px;
+}
